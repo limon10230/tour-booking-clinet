@@ -1,0 +1,17 @@
+.header-container {
+    background-color:  rgb(59, 61, 56);
+    color: peachpuff;
+    padding: 20px;
+  
+}
+nav{
+    padding-top: 10px;
+}
+.navlink{
+    margin: 8px;
+    text-decoration: none;
+    font-weight:500;
+    font-size: larger;
+    color: peachpuff;
+   
+}

@@ -1,0 +1,17 @@
+.card{
+    height: 500px;
+    width: 400px;
+    margin: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px  #888888;
+    
+    
+    }
+    .card img{
+        height: 300px;
+    }
+    .button{
+       color: black;
+    }
+  

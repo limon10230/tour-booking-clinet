@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "https://images.unsplash.com/photo-1617334140746-03dc1cc27593?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHRvdXJpc3RpYyUyMHBsYWNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+        "title": "Vernazza, SP, Italy",
+        "price": 3000,
+        "discription": "The five towns of Cinque Terre, The tiny port is surrounded by colorful typical Ligurian houses and the charming piazza is lined with good restaurants and bars."
+    },
+    {
+        "id": 2,
+        "img": "https://as1.ftcdn.net/v2/jpg/03/78/85/24/500_F_378852456_2OAorw4wj69yHrJxFpJyglAd880Xcq7U.jpg",
+        "title": "Cappadocia, Turkey. ",
+        "price": 2000,
+        "discription": "Gastric bypass and other weight-loss surgeries — known collectively as bariatric surgery"
+    },
+    {
+        "id": 3,
+        "img": "https://image.freepik.com/free-photo/view-taj-mahal-with-tourist-silhouettes_53876-138065.jpg",
+        "title": "Paris, France",
+        "price": 6000,
+        "discription": "Heart Transplant and other weight-loss surgeries — known collectively as bariatric "
+    },
+    {
+        "id": 4,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/65/78/68/500_F_165786859_yMrHKNHhL4jhFvGBkZ1pIMyrvjSZJXC7.jpg",
+        "title": "Paris Eiffel Tower ",
+        "price": 11000,
+        "discription": "Chemical Research other weight-loss surgeries — known collectively as bariatri"
+    },
+    {
+        "id": 5,
+        "img": "https://as1.ftcdn.net/v2/jpg/01/15/89/66/500_F_115896652_50izDX6bu8SNZ1xX8NPwXjQK63vveHVa.jpg",
+        "title": "Atlantis Hotel in Dubai, UAE",
+        "price": 8000,
+        "discription": "Anatomical Pathology other weight-loss surgeries — known collectively as bariatri "
+    },
+    {
+        "id": 6,
+        "img": "https://as1.ftcdn.net/v2/jpg/02/62/26/38/500_F_262263896_lCkiPApVpSvgtAcAE4Q5tReLZSyZDR8p.jpg",
+        "title": "Copacabana beach in Rio de Janeiro, Brazil.",
+        "price": 9000,
+        "discription": "Heart Disease weight-loss surgeries — known collectively as bariatri"
+    }
+]

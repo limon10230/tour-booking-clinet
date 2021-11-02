@@ -1,0 +1,15 @@
+.motto-title{
+    color: rgb(65, 47, 35);
+}
+.welcome-title{
+    font-size: 50px;
+    color: rgb(9, 204, 238);
+}
+.detail{
+    color: rgb(18, 53, 44);
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.button{
+    background-color: rgb(9, 204, 238);
+}
