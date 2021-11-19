@@ -5,7 +5,7 @@ const Cart = () => {
     const [cart, setCart] = useState([]);
 
     useEffect(() =>
-        fetch('http://localhost:5000/services')
+        fetch('https://stark-forest-68756.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setCart(data))
         , [])

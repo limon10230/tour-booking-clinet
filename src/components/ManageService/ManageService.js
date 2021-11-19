@@ -7,16 +7,16 @@ const ManageService = () => {
     const [services, setServices] = useState([]);
     //console.log(products);
     useEffect(() => {
-        fetch('https:/localhost:5000/addOrder')
-            .then(response => response.json())
+        fetch('https://stark-forest-68756.herokuapp.com/addOrder')
+            .then(res => res.json())
             .then(data => {
                 setServices(data);
-                //console.log(data);
+                // console.log(data);
             })
     }, [])
 
     // const handleDelete = (id) => {
-    //     const url = https://howling-labyrinth-06347.herokuapp.com/addOrder/${id};
+    //     const url = https://stark-forest-68756.herokuapp.com/addOrder/${id};
     //     fetch(url , {
     //         method: "DELETE"
     //     })
@@ -36,7 +36,7 @@ const ManageService = () => {
     const handleDelete = id => {
         const proceed = window.confirm('are you sure u want ot delete this item')
         if (proceed) {
-            const url = `https://localhost:5000/addOrder/${id}`;
+            const url = `https://stark-forest-68756.herokuapp.com/addOrder/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

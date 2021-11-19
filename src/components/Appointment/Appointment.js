@@ -17,7 +17,7 @@ const Appointment = () => {
     useEffect(() => {
 
 
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://stark-forest-68756.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
@@ -26,7 +26,7 @@ const Appointment = () => {
         console.log('Order submitted');
         const orderDetails = { ...user, ...services, date: new Date() }
         console.log(orderDetails);
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://stark-forest-68756.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

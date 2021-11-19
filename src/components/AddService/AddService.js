@@ -9,7 +9,7 @@ const AddService = () => {
 
         console.log(data);
 
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://stark-forest-68756.herokuapp.com/services', data)
             .then(res => {
 
 
